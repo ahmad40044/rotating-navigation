@@ -1,1 +1,2 @@
-here is a serach button that on click opens the input for the search and some effects with the click 
+this is a basic project on home page navigation where when you click on the navigation icon , the page will
+rotate and you will see the navigation buttons 
