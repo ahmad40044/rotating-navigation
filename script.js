@@ -1,11 +1,7 @@
-const search = document.querySelector(".search");
+const open = document.getElementById("open");
+const close = document.getElementById("close");
+const container = document.querySelector(".container");
 
-const btn = document.querySelector(".btn");
-const butn = document.getElementById("btnsearch");
+open.addEventListener("click", () => container.classList.add("show-nav"));
 
-const input = document.querySelector(".input");
-
-btn.addEventListener("click", () => {
-  search.classList.toggle("active");
-  input.focus();
-});
+close.addEventListener("click", () => container.classList.remove("show-nav"));
