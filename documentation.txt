@@ -1,0 +1,1 @@
+here is a serach button that on click opens the input for the search and some effects with the click 
